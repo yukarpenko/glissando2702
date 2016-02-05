@@ -1,0 +1,13 @@
+#
+EVENTS  10000
+NUMA    208
+RWSA   -1
+NUMB    208
+RWSB    -1
+CD     0.9
+SNN    32.
+SBIN   32.
+ALPHA   0
+BMIN     0.
+BMAX     22.     
+#

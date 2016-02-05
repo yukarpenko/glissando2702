@@ -1,0 +1,14 @@
+#
+EVENTS  50000
+NUMA    238
+RWSA	-1
+NUMB    238
+RWSB	-1
+SNN     42.
+SBIN    42.
+ALPHA   0.
+DW      0
+DBIN    0
+BMAX    24.      
+BTOT    15.
+#

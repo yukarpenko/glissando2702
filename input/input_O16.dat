@@ -1,0 +1,10 @@
+#
+#ISEED  0       
+EVENTS  100000
+NUMA    16
+NUMB    16      
+MODEL   0
+BMAX    12  
+BTOT    12
+
+

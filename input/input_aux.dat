@@ -1,0 +1,8 @@
+#
+EVENTS   10000
+MODEL    2
+DW       0
+BMIN     6.6
+BMAX     6.6
+MAXYRAP  0.5
+#

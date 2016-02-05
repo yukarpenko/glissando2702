@@ -1,0 +1,15 @@
+#
+EVENTS  1000000
+NUMA     197
+NUMB     197       
+RWSA    6.37
+AWSA    0.54
+RWSB    6.37
+AWSB    0.54
+CD     0.4
+SNN    42.
+SBIN   42.
+ALPHA   0
+BMIN     0.
+BMAX     22.     
+#

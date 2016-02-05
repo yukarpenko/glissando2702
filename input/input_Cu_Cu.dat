@@ -1,0 +1,15 @@
+#
+EVENTS  200000
+NUMA    63
+RWSA    -1
+NUMB    63
+RWSB    -1
+SNN     42.
+SBIN    42.
+ALPHA   0.145
+DW      0
+DBIN    0
+BMAX    20.      
+BTOT    15.
+#
+

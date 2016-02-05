@@ -1,0 +1,12 @@
+#
+EVENTS  100000
+NUMA    1  
+NUMB    208
+RWSB    -1     
+ALPHA   0
+MODEL   0
+CD      0.9
+SNN     73.5
+SBIN    73.5
+BMAX    15.
+BTOT    3.  

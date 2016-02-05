@@ -1,0 +1,17 @@
+#
+EVENTS  2000
+NUMA    208
+RWSA    -1
+NUMB    208
+RWSB    -1
+SNN     73.5
+SBIN    73.5
+ALPHA   0.15
+DW      0
+DBIN    0
+BMAX    24.      
+BTOT    15.
+RDS1   279.
+RDS0   187.
+#
+

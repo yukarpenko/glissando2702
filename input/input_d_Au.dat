@@ -1,0 +1,11 @@
+#
+EVENTS  20000
+NUMA    2
+NUMB    197 
+RWSB    -1
+ALPHA   0
+W0	14
+W1	1000
+BMIN    0
+BMAX    5
+BTOT    2.5

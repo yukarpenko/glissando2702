@@ -1,0 +1,15 @@
+#      
+EVENTS 500
+NUMA   197
+RWSA   -1
+NUMB   197
+RWSB   -1
+ALPHA   0.145
+SNN     42.
+SBIN    42.
+MODEL   0
+BMIN    0.
+BMAX    24.
+#BMAX    0.
+BTOT    18
+#

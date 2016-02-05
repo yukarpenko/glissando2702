@@ -1,0 +1,11 @@
+EVENTS  50000
+NUMA    1
+NUMB    12
+RCHA    5.66
+CD     0.9
+SNN    32.
+SBIN   32.
+ALPHA   0
+BMIN     0.
+BMAX     15.     
+#

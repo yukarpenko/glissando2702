@@ -1,0 +1,10 @@
+#
+EVENTS  20000
+NUMA    208
+RWSA    -1
+NUMB    208
+RWSB    -1
+SNN     73.5
+SBIN    73.5
+ALPHA   0.15
+BTOT    15.

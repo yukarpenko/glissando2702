@@ -1,0 +1,9 @@
+#
+EVENTS  10000
+NUMA    32
+RWSA    -1
+NUMB    208       
+RWSB    -1
+SNN     32.
+BMAX    15    
+BTOT    15
