@@ -1244,7 +1244,7 @@ Float_t b=.25*los(); // 0.25 is an upper bound of the probability distribution
 //! rapidity distribution with the plateau 
 Float_t fg(
            Float_t rr  //!< spatial rapidity
-          ){return exp(-(sqrt(rr*rr)-ETA0)*(sqrt(rr*rr)-ETA0)/(2*SIGETA*SIGETA)*max(0., sqrt(rr*rr)-ETA0) );};
+          ){return exp(-(sqrt(rr*rr)-ETA0)*(sqrt(rr*rr)-ETA0)/(2*SIGETA*SIGETA)*max(0.f, sqrt(rr*rr)-ETA0) );};
 
 //! function f +/- from Bozek, arXiv:1002.4999v2 [nucl-th]
 Float_t fpm(

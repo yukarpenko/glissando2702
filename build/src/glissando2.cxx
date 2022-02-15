@@ -512,6 +512,7 @@ collAB.fill_polar(tr_his.c0rhist, 0, 1./(2*PI)/(BTOT/NBIN)/EVENTS);
 collAB.fill_polar(tr_his.c2rhist, 2, 1./(2*PI)/(BTOT/NBIN)/EVENTS);
 collAB.fill_xy(tr_his.xyhist_mantle, 1./(4*BTOT*BTOT/NBIN/NBIN)/EVENTS, 1, 1);  // corona sources
 collAB.fill_xy(tr_his.xyhist_core, 1./(4*BTOT*BTOT/NBIN/NBIN)/EVENTS, 2, 1000); // core sources
+collAB.dump_to_text(outfile); // print out the sources to text file
 ep=collAB.eps(2,ppp); eps=collAB.eps_s(2,ppp);
 collAB.rotate(-pht2);
 

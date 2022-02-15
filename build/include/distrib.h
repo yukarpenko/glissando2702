@@ -10,6 +10,9 @@
 
 #include <TH1D.h>
 #include <TH3D.h>
+#include <TString.h>
+#include <fstream>
+#include <iomanip>
 
 #include "counter.h"
 
@@ -341,6 +344,13 @@ class distr {
                 Float_t fac   /*!< normalization factor */
                 ){
            for(Int_t i=0;i<n;i++){xyh->Fill(x[i],y[i],w[i]*fac);};};
+    void dump_to_text(TString outfile){
+           outfile.ReplaceAll(".root",".dat");
+           static ofstream fout (outfile.Data());
+           fout<<"event"<<endl;
+           for(Int_t i=0;i<n;i++){
+            fout<<setw(14)<<x[i]<<setw(14)<<y[i]<<setw(14)<<c[i]<<setw(14)<<w[i]<<endl;
+           };};
 
 //! fill the histogram of the transverse distribution in polar coordinates, limited charge  
 /*! Limited charge range may be used to get the core and mantle (corona) distributions. */
